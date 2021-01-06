@@ -1,0 +1,114 @@
+.name-heighlight{
+    font-family:  fantasy;
+    font-size: 30px;
+    color: rgba(7, 5, 37, 0.788); 
+}
+.name-heighlight-1{
+    font-family:  fantasy;
+    font-size: 30px;
+    color: rgba(226, 33, 33, 0.801); 
+}
+body{
+    margin: 0%;
+    padding: 0%;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 5%;
+    padding-left: 1%;
+}
+.half-width img{
+    width: 65%;  
+
+}
+section{
+    height: 500px;
+}
+.linked-in :hover{
+    cursor: pointer;
+}
+p{
+    color: dimgray;
+    width:70%;
+}
+.linked-in{
+    text-decoration: none;
+    background-color: rgb(218, 76, 76);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font:weight 10;
+    font-weight: lighter;
+    font-family:'Courier New';
+}
+.last{
+    color: rgba(226, 33, 33, 0.801); 
+    font-family:sans-serif;
+    font-style: normal;
+
+}
+.lets{
+    text-align: center;
+}
+.box{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 1%;
+    
+}
+.box img{
+    width: 90%;
+}
+.box h3{
+    color: rgba(7, 5, 37, 0.788); 
+}
+.box-design{
+    box-shadow: 10px 10px 15px rgb(206, 186, 186);
+    border-radius: 10px;
+    height: 50%;
+    background-color: aliceblue;
+    height: 65%;
+}
+.bg{
+    background-image: url(images/bg.png);
+    background-position: center;
+    height:130px;
+    margin-left:25%;
+    margin-right:25%;
+    border-radius: 15px;
+}
+.bg h2{
+    color: white;
+    text-align: center;
+    padding-right: 50%;
+    padding-top: 7%;
+    font-family:sans-serif;
+    font-weight:bold;
+
+}
+.bga{
+    
+    text-align: right;
+    
+    padding-top;:15 %;
+    font-family:sans-serif;
+    font-weight:bold;
+
+}
+.foot{
+    text-align: center;
+    width: 100%;   
+}
+.hello h2{
+    color:rgba(7, 5, 37, 0.788);  
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.foot h5{
+    color: dimgray;
+    
+}
