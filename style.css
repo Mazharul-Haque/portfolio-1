@@ -35,14 +35,18 @@ p{
     width:70%;
 }
 .linked-in{
-    text-decoration: none;
+    
     background-color: rgb(218, 76, 76);
-    padding: 5px 20px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
     color: white;
-    font:weight 10;
+    text-decoration: none;
     font-weight: lighter;
     font-family:'Courier New';
+}
+.linked-in:hover{
+    color: rgb(22, 27, 24);
+    font-weight: bold;
 }
 .last{
     color: rgba(226, 33, 33, 0.801); 
@@ -74,12 +78,19 @@ p{
     height: 65%;
 }
 .bg{
-    background-image: url(images/bg.png);
-    background-position: center;
-    height:130px;
-    margin-left:25%;
-    margin-right:25%;
+    background: url(images/bg.png);
+    background-size: cover;
+    height:150px;
+    width:800px;
+    margin-left:17%;
+    margin-top:10%;
     border-radius: 15px;
+}
+
+.work{
+    font-size: 15px;
+    color: white;
+    
 }
 .bg h2{
     color: white;
@@ -93,10 +104,11 @@ p{
 .bga{
     
     text-align: right;
-    
-    padding-top;:15 %;
+    margin-top:-5%;
     font-family:sans-serif;
     font-weight:bold;
+    margin-right:150px;
+    
 
 }
 .foot{
@@ -118,3 +130,5 @@ p{
     color: dimgray;
     
 }
+
+
