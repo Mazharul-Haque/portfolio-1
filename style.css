@@ -100,13 +100,19 @@ p{
 
 }
 .foot{
-    text-align: center;
-    width: 100%;   
+    padding-top: 2%;
+    height: 100px;
 }
-.hello h2{
-    color:rgba(7, 5, 37, 0.788);  
-    font-weight: bold;
-    font-family: sans-serif;
+.stay{
+    text-align: center;
+    font-size: larger;
+}
+.icon{
+    padding-left: 45%;
+}
+.icon img{
+    width: 6%;
+    cursor: pointer;
 }
 .foot h5{
     color: dimgray;
