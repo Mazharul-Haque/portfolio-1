@@ -1,3 +1,25 @@
+.sec-bar{
+    height: 50px;
+    background-color: aliceblue;
+    padding-right: 110px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(19, 16, 16);
+    font-size: 15px;
+    font-family: fantasy;
+}
+nav a:hover{
+    color: rgba(73, 42, 42, 0.719);
+    font-weight: bold;
+    font-size: small;
+}
+.li-cl{
+    list-style: none;
+    float: right;
+    padding: 15px;
+}
 .name-heighlight{
     font-family:  fantasy;
     font-size: 30px;
@@ -9,7 +31,7 @@
     color: rgba(226, 33, 33, 0.801); 
 }
 body{
-    margin: 0%;
+    margin:0%;
     padding: 0%;
 
 }
@@ -112,13 +134,15 @@ p{
 
 }
 .foot{
-    padding-top: 2%;
-    height: 100px;
+    padding-top: 10%;
+    height: 200px;
 }
 .stay{
     text-align: center;
     font-size: larger;
+    margin-top: 1%;   
 }
+
 .icon{
     padding-left: 45%;
 }
@@ -128,6 +152,20 @@ p{
 }
 .foot h5{
     color: dimgray;
+    
+}
+@media(max-width:992px){
+    .sec-bar{
+        grid-template-columns: repeat(2, 1fr);     
+    }
+    .sec-bar{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media(max-width:668px){
+    .li-cl, .bg{
+        grid-template-columns:repeat(1, 1fr);
+    }
     
 }
 
